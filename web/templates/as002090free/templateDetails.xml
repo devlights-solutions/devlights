@@ -1,0 +1,2432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>AS 002090 Free</name>
+	<creationDate>2016-01-24</creationDate>
+	<updateDate>2016-03-02</updateDate>
+	<version>1.1.0</version>
+	<author>AS Designing</author>
+    <authorUrl>http://www.asdesigning.com</authorUrl>
+    <copyright>AS Designing</copyright>
+    <license>GNU/GPL</license>
+	
+	<description>
+	<![CDATA[
+
+			<img src="../templates/as002090free/template_thumbnail.png" align="left" class="template_thumbnail" 
+					style="margin: 0px 40px 10px 0px; display: none;" />
+					
+			<h1><span  style="display: block">AS Template 002090 - Free Version for Joomla! 3</span></h1>
+			
+			<a href="http://www.astemplates.com/joomla-template-documentation/445-002090" target="_blank">Click here</a>  to see the template documentation.
+			<br />Visit our site for more templates: <a href="http://www.astemplates.com" target="_blank">http://www.astemplates.com</a>.
+			<br /><br />
+			
+			<span style="color:orange; font-weight: bold; font-size:18px ">
+			<br />Free Version is limited and may not include all configuration parameters and module positions.<br /><br />
+			</span>
+			The free version with all included extensions and 
+			<a href="http://www.astemplates.com/free-joomla-template/445-002090" target="_blank">
+			<b style="color:red;  font-size:16px">demo quick-start package</b></a> you can download from here:<br />
+			<a href="http://www.astemplates.com/free-joomla-template/445-002090" target="_blank">http://www.astemplates.com/free-joomla-template/445-002090</a>
+			<br /><br /><br /><br />
+
+			<hr />
+			<h3><b>Most popular AS Templates:</b></h3><br />
+			    <a href="http://www.astemplates.com/joomla-template-details/436-002085" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/436/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/238-002066" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/238/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/109-002032" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/109/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/157-002044" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/157/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/219-002060" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/219/template.thumbnail.png">
+				</a><br /><br />
+				
+			    <a href="http://www.astemplates.com/joomla-template-details/179-002048" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/179/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/209-002058" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/209/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/228-002063" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/228/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/397-002080" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/397/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/319-002073" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/319/template.thumbnail.png">
+				</a>				
+			<br /><br />]]>
+	</description>	
+	
+	<files>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>fonts.php</filename>
+		<filename>params.php</filename>
+		<filename>styles.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>fonts</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>includes</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="de-DE">de-DE/de-DE.tpl_as002090free.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_as002090free.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_as002090free.sys.ini</language>
+		<language tag="es-ES">es-ES/es-ES.tpl_as002090free.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.tpl_as002090free.ini</language>
+		<language tag="it-IT">it-IT/it-IT.tpl_as002090free.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.tpl_as002090free.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.tpl_as002090free.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_as002090free.ini</language>
+	</languages>
+
+	<positions>
+		<position>as-top-header</position>
+		<position>as-mainmenu</position>
+		<position>as-slider</position>
+		<position>as-breadcrumbs</position>
+		<position>as-bottom-header</position>
+
+		<position>as-content-1</position>
+		<position>as-content-2</position>
+		<position>as-content-3</position>
+		<position>as-content-4</position>
+		<position>as-content-5</position>
+		<position>as-content-6</position>
+		<position>as-content-7</position>
+		<position>as-left-top</position>
+		<position>as-left-bottom</position>
+		<position>as-content-top</position>
+		<position>as-content-bottom</position>
+		<position>as-right-top</position>
+		<position>as-right-bottom</position>		
+		<position>as-content-8</position>
+
+		<position>as-footer-1</position>
+		<position>as-footer-2</position>
+		<position>as-footer-3</position>
+		<position>as-copyright</position>
+
+		<position>modal</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+	<fields name="params">
+		<fieldset name="header-layout" label="TPL_FIELDSET_HEADER_LAYOUT">
+			<field type="spacer" label="&lt;link rel='stylesheet' href='../templates/as002090free/css/tmpl.admin.css' type='text/css' /&gt;" />
+			<field type="spacer" label="&lt;script src='../templates/as002090free/js/jscolors/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" />
+
+			<field name="header_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_HEADER_BG_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="header_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_HEADER_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_LOGO_LABEL" description="TPL_LOGO_DESC"></field>
+			<field name="logo_size"
+				type="integer"
+				first="1"
+				last="12"
+				step="1"
+				default="3"
+				label="TPL_LOGO_SIZE_LABEL"
+				description="TPL_LOGO_SIZE_DESC">
+			</field>			
+			<field 
+				name="logo_img" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_THEME_LOGO_LABEL"
+				description="TPL_THEME_LOGO_DESC">
+			</field>
+			<field 
+				name="logo_slogan" 
+				type="text" 
+				default="" 
+				label="TPL_THEME_LOGO_SLOGAN" 
+				description="TPL_THEME_SLOGAN_DESC">
+			</field>
+			<field name="logo_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_THEME_LOGO_COLOR" 
+				description="">
+			</field>
+			<field name="slogan_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_THEME_SLOGAN_COLOR" 
+				description="">
+			</field>									
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+								
+			<field type="spacer" label="TPL_TOP_HEADER_LABEL" description=""></field>
+			<field name="top_header_layout" 
+				class="btn-group" 
+				type="list" 
+				default="1" 
+				label="TPL_TOP_HEADER_LAYOUT_LABEL" 
+				description="TPL_TOP_HEADER_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field name="top_header_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_TOP_HEADER_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="top_header_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_TOP_HEADER_BG_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_MENU_LABEL" description=""></field>
+			<field name="mainmenu_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_MENU_LAYOUT_LABEL" 
+				description="TPL_MENU_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+			</field>
+			<field name="mainmenu_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MENU_BG_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_SLIDER_LABEL" description=""></field>
+			<field name="slider_layout" 
+				class="btn-group" 
+				type="list" 
+				default="0" 
+				label="TPL_SLIDER_LAYOUT_LABEL" 
+				description="TPL_SLIDER_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field name="slider_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_SLIDER_BG_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_BREADCRUMBS_LABEL" description=""></field>
+			<field name="breadcrumbs_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_BREADCRUMBS_LAYOUT_LABEL" 
+				description="TPL_BREADCRUMBS_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field name="breadcrumbs_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BREADCRUMBS_FONT_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field name="breadcrumbs_hfontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BREADCRUMBS_HFONT_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field name="breadcrumbs_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BREADCRUMBS_BG_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="breadcrumbs_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_BREADCRUMBS_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="breadcrumbs_border_top"
+				type="integer"
+				first="0"
+				last="10"
+				step="1"
+				default="0"
+				label="TPL_BREADCRUMBS_BORDER_TOP_LABEL" 
+				description="">
+			</field>			
+			<field name="breadcrumbs_border_bottom"
+				type="integer"
+				first="0"
+				last="10"
+				step="1"
+				default="0"
+				label="TPL_BREADCRUMBS_BORDER_BOTTOM_LABEL" 
+				description="">
+			</field>
+			<field name="breadcrumbs_border_color" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BREADCRUMBS_BORDER_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_BOTTOM_HEADER_LABEL" description=""></field>
+			<field name="bottom_header_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_BOTTOM_HEADER_LAYOUT_LABEL" 
+				description="TPL_BOTTOM_HEADER_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="bottom_header_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="bottom_header_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="bottom_header_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_BOTTOM_HEADER_HLINK_FONT_COLOR_DESC">
+			</field>
+			<field name="bottom_header_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="bottom_header_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="bottom_header_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="bottom_header_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+										
+			<field name="bottom_header_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_BOTTOM_HEADER_BG_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="bottom_header_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_BOTTOM_HEADER_BG_IMAGE_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		</fieldset>
+		
+		<fieldset name="content_top_layout" label="TPL_FIELDSET_CONTENT_TOP_LAYOUT">
+			<field type="spacer" label="" />
+			<field type="spacer" label="" />
+
+			<field type="spacer" label="TPL_CONTENT1_LABEL" description=""></field>
+			<field 
+				name="content1_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT1_LAYOUT_LABEL" 
+				description="TPL_CONTENT1_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content1_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content1_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT1_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content1_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content1_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content1_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content1_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+							
+			<field name="content1_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT1_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content1_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT1_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content1_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT1_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content1_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT1_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content1_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="90"
+				label="TPL_CONTENT1_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field type="spacer" label=" " />
+			
+			<field name="content1_left_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT1_LEFT_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="content1_left_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT1_LEFT_BG_IMAGE_LABEL" 
+				description="">
+			</field>												
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_CONTENT2_LABEL" description=""></field>
+			<field 
+				name="content2_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT2_LAYOUT_LABEL" 
+				description="TPL_CONTENT2_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content2_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content2_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT2_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content2_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content2_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content2_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content2_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content2_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT2_BG_COLOR_LABEL" 
+				description="">
+			</field>							
+			<field name="content2_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT2_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content2_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT2_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content2_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT2_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content2_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT2_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content2_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT2_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>				
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_CONTENT3_LABEL" description=""></field>
+			<field 
+				name="content3_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT3_LAYOUT_LABEL" 
+				description="TPL_CONTENT3_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content3_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content3_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT3_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content3_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content3_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content3_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content3_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content3_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT3_BG_COLOR_LABEL" 
+				description="">
+			</field>							
+			<field name="content3_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT3_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content3_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT3_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content3_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT3_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content3_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT3_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content3_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT3_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>				
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_CONTENT4_LABEL" description=""></field>
+			<field 
+				name="content4_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT4_LAYOUT_LABEL" 
+				description="TPL_CONTENT4_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content4_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content4_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT4_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content4_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content4_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content4_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content4_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content4_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT4_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="content4_bgcolor_opacity" 
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="100"
+				label="TPL_CONTENT4_BG_COLOR_OPACITY_LABEL" 
+				description="TPL_CONTENT4_BG_COLOR_OPACITY_DESC">
+			</field>										
+			<field name="content4_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT4_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content4_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT4_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content4_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT4_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content4_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT4_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content4_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT4_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />			
+		</fieldset>
+		
+		<fieldset name="content_main_layout" label="TPL_FIELDSET_CONTENT_MAIN_LAYOUT">
+			<field type="spacer" label="" />
+			<field type="spacer" label="" />
+			
+			<field type="spacer" label="TPL_SPACER_ASIDES_LABEL" description="TPL_SPACER_ASIDES_DESC"></field>
+			<field 
+				name="aside_left_width" 
+				type="integer" 
+				first="1" 
+				last="6" 
+				step="1"
+				default="4" 
+				label="TPL_THEME_ASIDE_LEFT_WIDTH" 
+				description="TPL_THEME_ASIDE_LEFT_WIDTH_DESC">    
+			</field>
+			<field 
+				name="aside_right_width" 
+				type="integer" 
+				first="1" 
+				last="6" 
+				step="1" 
+				default="4"
+				label="TPL_THEME_ASIDE_RIGHT_WIDTH" 
+				description="TPL_THEME_ASIDE_RIGHT_WIDTH_DESC">
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />	
+							
+			<field type="spacer" label="TPL_MAINCONTENT_LABEL" description=""></field>
+			<field 
+				name="main_content_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_MAINCONTENT_LAYOUT_LABEL" 
+				description="TPL_MAINCONTENT_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="main_content_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="main_content_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="main_content_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_MAINCONTENT_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="main_content_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="main_content_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="main_content_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="main_content_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="main_content_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_MAINCONTENT_BG_COLOR_LABEL" 
+				description="">
+			</field>							
+			<field name="main_content_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_MAINCONTENT_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="main_content_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_MAINCONTENT_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="main_content_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_MAINCONTENT_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="main_content_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_MAINCONTENT_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="main_content_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_MAINCONTENT_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>					
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		</fieldset>
+		
+		<fieldset name="content_bottom_layout" label="TPL_FIELDSET_CONTENT_BOTTOM_LAYOUT">		
+			<field type="spacer" label="" />
+			<field type="spacer" label="" />
+			
+			<field type="spacer" label="TPL_CONTENT5_LABEL" description=""></field>
+			<field 
+				name="content5_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT5_LAYOUT_LABEL" 
+				description="TPL_CONTENT5_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content5_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content5_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content5_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT5_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content5_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content5_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content5_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content5_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content5_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT5_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="content5_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT5_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content5_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT5_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content5_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT5_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content5_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT5_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content5_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT5_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>				
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_CONTENT6_LABEL" description=""></field>
+			<field 
+				name="content6_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT6_LAYOUT_LABEL" 
+				description="TPL_CONTENT6_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content6_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content6_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content6_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT6_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content6_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content6_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content6_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content6_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content6_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT6_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="content6_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT6_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content6_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT6_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content6_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT6_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content6_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT6_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content6_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT6_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>				
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_CONTENT7_LABEL" description=""></field>
+			<field 
+				name="content7_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT7_LAYOUT_LABEL" 
+				description="TPL_CONTENT7_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content7_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content7_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content7_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT7_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content7_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content7_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content7_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content7_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content7_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT7_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="content7_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT7_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content7_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT7_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content7_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT7_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content7_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT7_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content7_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT7_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>				
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_CONTENT8_LABEL" description=""></field>
+			<field 
+				name="content8_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_CONTENT8_LAYOUT_LABEL" 
+				description="TPL_CONTENT8_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="content8_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content8_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content8_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_CONTENT8_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="content8_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content8_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content8_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="content8_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="content8_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_CONTENT8_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="content8_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_CONTENT8_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="content8_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT8_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content8_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT8_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="content8_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT8_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="content8_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_CONTENT8_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		</fieldset>
+		
+		<fieldset name="footer_layout" label="TPL_FIELDSET_FOOTER_LAYOUT">		
+			<field type="spacer" label="" />
+			<field type="spacer" label="" />
+
+			<field 
+				name="show_footer_logo" 
+				class="btn-group" 
+				type="radio" 
+				default="0" 
+				label="TPL_FOOTER_LOGO_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field 
+				name="footer_logo_img" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_THEME_FOOTER_LOGO_LABEL"
+				description="TPL_THEME_FOOTER_LOGO_DESC">
+			</field>
+			<field 
+				name="footer_slogan" 
+				type="text" 
+				default="" 
+				label="TPL_THEME_FOOTER_SLOGAN_LABEL" 
+				description="">
+			</field>
+			<field name="footer_slogan_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_THEME_FOOTER_SLOGAN_COLOR_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label="" />
+			<field type="spacer" label="" />
+											
+			<field type="spacer" label="TPL_FOOTER1_LABEL" description=""></field>
+			<field 
+				name="footer1_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_FOOTER1_LAYOUT_LABEL" 
+				description="TPL_FOOTER1_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="footer1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer1_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer1_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_FOOTER1_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="footer1_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer1_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer1_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer1_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="footer1_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER1_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="footer1_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_FOOTER1_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="footer1_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER1_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="footer1_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER1_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="footer1_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER1_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="footer1_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER1_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_FOOTER2_LABEL" description=""></field>
+			<field 
+				name="footer2_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_FOOTER2_LAYOUT_LABEL" 
+				description="TPL_FOOTER2_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="footer2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer2_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer2_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_FOOTER2_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="footer2_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer2_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer2_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer2_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="footer2_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER2_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="footer2_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_FOOTER2_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="footer2_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER2_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="footer2_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER2_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="footer2_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER2_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="footer2_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER2_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_FOOTER3_LABEL" description=""></field>
+			<field 
+				name="footer3_layout" 
+				class="btn-group" 
+				type="list" 
+				default="2" 
+				label="TPL_FOOTER3_LAYOUT_LABEL" 
+				description="TPL_FOOTER3_LAYOUT_DESC">
+					<option value="2">TPL_CENTERED</option>
+					<option value="1">TPL_FULL</option>
+					<option value="0">TPL_FULL_FIXED</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="footer3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer3_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer3_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_FOOTER3_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field name="footer3_h1_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_H1_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer3_h2_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_H2_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer3_h3_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_H3_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="footer3_h4_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_H4_FONT_COLOR_LABEL" 
+				description="">
+			</field>
+			<field type="spacer" label=" " />
+
+			<field name="footer3_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_FOOTER3_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="footer3_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_FOOTER3_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="footer3_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER3_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="footer3_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER3_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field name="footer3_margin_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER3_MARGIN_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="footer3_margin_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_FOOTER3_MARGIN_BOTTOM_LABEL" 
+				description="">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_COPYRIGHT_LABEL" description=""></field>
+			<field 
+				name="footer_copy" 
+				class="btn-group" 
+				type="radio" 
+				default="1" 
+				label="TPL_COPY_LABEL" >
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field 
+				name="show_footer_year" 
+				class="btn-group" 
+				type="radio" 
+				default="1" 
+				label="TPL_YEAR_LABEL" >
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field name="copy_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_COPY_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="copy_link_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_COPY_LINK_FONT_COLOR_LABEL" 
+				description="">
+			</field>				
+			<field name="copy_hlink_fontcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_COPY_HLINK_FONT_COLOR_LABEL" 
+				description="TPL_COPY_HLINK_FONT_COLOR_DESC">
+			</field>				
+			<field type="spacer" label=" " />
+
+			<field name="copy_bgcolor" 
+				class="color {required:false}" 
+				type="text" 
+				default="" 
+				label="TPL_COPY_BG_COLOR_LABEL" 
+				description="">
+			</field>
+			<field name="copy_bgimage" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_COPY_BG_IMAGE_LABEL" 
+				description="">
+			</field>
+			<field name="copy_padding_top"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_COPY_PADDING_TOP_LABEL" 
+				description="">
+			</field>										
+			<field name="copy_padding_bottom"
+				type="integer"
+				first="0"
+				last="100"
+				step="5"
+				default="0"
+				label="TPL_COPY_PADDING_BOTTOM_LABEL" 
+				description="">
+			</field>	
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />			
+		</fieldset>		
+		
+		<fieldset name="typography" label="TPL_FIELDSET_TYPOGRAPHY">
+			<field type="spacer" label="" />
+			<field type="spacer" label="" />
+
+			<field name="body_font_family" 
+				type="list" 
+				default="Lato" 
+				label="TPL_BODY_FONT_FAMILY_LABEL" 
+				description="TPL_BODY_FONT_FAMILY_DESC">
+					<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif</option>
+					<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman</option>
+					<option value="'Courier New', Courier, monospace">Courier New, Courier</option>
+					<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+					<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica</option>
+					<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+					<option value="'Times New Roman', Times, serif">Times New Roman, Times</option>
+					<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+					<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+					<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode</option>	
+					<option value="ABeeZee">Google:ABeeZee</option>
+					<option value="Acme">Google:Acme</option>
+					<option value="Advent Pro">Google:Advent Pro</option>
+					<option value="Arimo">Google:Arimo</option>
+					<option value="Arizonia">Google:Arizonia</option>
+					<option value="Arvo">Google:Arvo</option>					
+					<option value="Average">Google:Average</option>
+					<option value="BenchNine">Google:BenchNine</option>
+					<option value="Carme">Google:Carme</option>
+					<option value="Comfortaa">Google:Comfortaa</option>
+					<option value="Convergence">Google:Convergence</option>
+					<option value="Cuprum">Google:Cuprum</option>
+					<option value="Droid Sans">Google:Droid Sans</option>
+					<option value="Droid Serif">Google:Droid Serif</option>
+					<option value="Exo">Google:Exo</option>
+					<option value="Felipa">Google:Felipa</option>
+					<option value="Fredoka One">Google:Fredoka One</option>						
+					<option value="Hammersmith One">Google:Hammersmith One</option>
+					<option value="Homenaje">Google:Homenaje</option>
+					<option value="Istok Web">Google:Istok Web</option>
+					<option value="Jockey One">Google:Jockey One</option>
+					<option value="Josefin Slab">Google:Josefin Slab</option>
+					<option value="Jura">Google:Jura</option>
+					<option value="Lato">Google:Lato</option>
+					<option value="Libre Baskerville">Google:Libre Baskerville</option>
+					<option value="Lobster">Google:Lobster</option>
+					<option value="Lobster Two">Google:Lobster Two</option>
+					<option value="Lora">Google:Lora</option>														
+					<option value="Macondo">Google:Macondo</option>
+					<option value="Marmelad">Google:Marmelad</option>
+					<option value="Michroma">Google:Michroma</option>
+					<option value="Montserrat">Google:Montserrat</option>
+					<option value="Monsieur La Doulaise">Google:Monsieur La Doulaise</option>						
+					<option value="Mr Bedfort">Google:Mr Bedfort</option>
+					<option value="Muli">Google:Muli</option>
+					<option value="Numans">Google:Numans</option>
+					<option value="Open Sans">Google:Open Sans</option>
+					<option value="Oswald">Google:Oswald</option>
+					<option value="Oxygen">Google:Oxygen</option>
+					<option value="Paytone One">Google:Paytone One</option>
+					<option value="Parisienne">Google:Parisienne</option>
+					<option value="Pontano Sans">Google:Pontano Sans</option>						
+					<option value="PT Sans">Google:PT Sans</option>	
+					<option value="PT Serif">Google:PT Serif</option>												
+					<option value="Prosto One">Google:Prosto One</option>
+					<option value="Questrial">Google:Questrial</option>
+					<option value="Raleway">Google:Raleway</option>
+					<option value="Roboto">Google:Roboto</option>
+					<option value="Roboto Condensed">Google:Roboto Condensed</option>
+					<option value="Roboto Slab">Google:Roboto Slab</option>										
+					<option value="Rouge Script">Google:Rouge Script</option>						
+					<option value="Russo One">Google:Russo One</option>
+					<option value="Sacramento">Google:Sacramento</option>
+					<option value="Salsa">Google:Salsa</option>						
+					<option value="Sail">Google:Sail</option>												
+					<option value="Sevillana">Google:Sevillana</option>						
+					<option value="Signika">Google:Signika</option>
+					<option value="Six Caps">Google:Six Caps</option>
+					<option value="Source Sans Pro">Google:Source Sans Pro</option>					
+					<option value="Tangerine">Google:Tangerine</option>												
+					<option value="Tulpen One">Google:Tulpen One</option>
+					<option value="Ubuntu">Google:Ubuntu</option>											
+			</field>			
+			<field
+				name="heading_font_family"
+				type="list"
+				default="Lato"
+				label="TPL_HEADING_FONT_FAMILY_LABEL"
+				description="TPL_HEADING_FONT_FAMILY_DESC"> 
+					<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif</option>
+					<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman</option>
+					<option value="'Courier New', Courier, monospace">Courier New, Courier</option>
+					<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+					<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica</option>
+					<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+					<option value="'Times New Roman', Times, serif">Times New Roman, Times</option>
+					<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+					<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+					<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode</option>	
+					<option value="ABeeZee">Google:ABeeZee</option>
+					<option value="Acme">Google:Acme</option>
+					<option value="Advent Pro">Google:Advent Pro</option>
+					<option value="Arimo">Google:Arimo</option>
+					<option value="Arizonia">Google:Arizonia</option>
+					<option value="Arvo">Google:Arvo</option>					
+					<option value="Average">Google:Average</option>
+					<option value="BenchNine">Google:BenchNine</option>
+					<option value="Carme">Google:Carme</option>
+					<option value="Comfortaa">Google:Comfortaa</option>
+					<option value="Convergence">Google:Convergence</option>
+					<option value="Cuprum">Google:Cuprum</option>
+					<option value="Droid Sans">Google:Droid Sans</option>
+					<option value="Droid Serif">Google:Droid Serif</option>
+					<option value="Exo">Google:Exo</option>
+					<option value="Felipa">Google:Felipa</option>
+					<option value="Fredoka One">Google:Fredoka One</option>						
+					<option value="Hammersmith One">Google:Hammersmith One</option>
+					<option value="Homenaje">Google:Homenaje</option>
+					<option value="Istok Web">Google:Istok Web</option>
+					<option value="Jockey One">Google:Jockey One</option>
+					<option value="Josefin Slab">Google:Josefin Slab</option>
+					<option value="Jura">Google:Jura</option>
+					<option value="Lato">Google:Lato</option>
+					<option value="Libre Baskerville">Google:Libre Baskerville</option>
+					<option value="Lobster">Google:Lobster</option>
+					<option value="Lobster Two">Google:Lobster Two</option>
+					<option value="Lora">Google:Lora</option>														
+					<option value="Macondo">Google:Macondo</option>
+					<option value="Marmelad">Google:Marmelad</option>
+					<option value="Michroma">Google:Michroma</option>
+					<option value="Montserrat">Google:Montserrat</option>
+					<option value="Monsieur La Doulaise">Google:Monsieur La Doulaise</option>						
+					<option value="Mr Bedfort">Google:Mr Bedfort</option>
+					<option value="Muli">Google:Muli</option>
+					<option value="Numans">Google:Numans</option>
+					<option value="Open Sans">Google:Open Sans</option>
+					<option value="Oswald">Google:Oswald</option>
+					<option value="Oxygen">Google:Oxygen</option>
+					<option value="Parisienne">Google:Parisienne</option>
+					<option value="Paytone One">Google:Paytone One</option>
+					<option value="Pontano Sans">Google:Pontano Sans</option>						
+					<option value="PT Sans">Google:PT Sans</option>	
+					<option value="PT Serif">Google:PT Serif</option>												
+					<option value="Prosto One">Google:Prosto One</option>
+					<option value="Questrial">Google:Questrial</option>
+					<option value="Raleway">Google:Raleway</option>
+					<option value="Roboto">Google:Roboto</option>
+					<option value="Roboto Condensed">Google:Roboto Condensed</option>
+					<option value="Roboto Slab">Google:Roboto Slab</option>										
+					<option value="Rouge Script">Google:Rouge Script</option>						
+					<option value="Russo One">Google:Russo One</option>
+					<option value="Sacramento">Google:Sacramento</option>
+					<option value="Salsa">Google:Salsa</option>						
+					<option value="Sail">Google:Sail</option>												
+					<option value="Sevillana">Google:Sevillana</option>						
+					<option value="Signika">Google:Signika</option>
+					<option value="Six Caps">Google:Six Caps</option>
+					<option value="Source Sans Pro">Google:Source Sans Pro</option>					
+					<option value="Tangerine">Google:Tangerine</option>												
+					<option value="Tulpen One">Google:Tulpen One</option>
+					<option value="Ubuntu">Google:Ubuntu</option>					         
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field 
+				name="body_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_BODY_FONT_SIZE_LABEL" 
+				description="TPL_BODY_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h1_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H1_FONT_SIZE_LABEL" 
+				description="TPL_H1_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h2_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H2_FONT_SIZE_LABEL" 
+				description="TPL_H2_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h3_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H3_FONT_SIZE_LABEL" 
+				description="TPL_H3_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h4_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H4_FONT_SIZE_LABEL" 
+				description="TPL_H4_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h5_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H5_FONT_SIZE_LABEL" 
+				description="TPL_H5_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h6_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H6_FONT_SIZE_LABEL" 
+				description="TPL_H6_FONT_SIZE_DESC">
+			</field>															
+						
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />			
+
+			<field type="spacer" label="TPL_SPACER_FEATURED_TYPO_LABEL" description="TPL_SPACER_FEATURED_TYPO_DESC"></field>
+							
+			<field 
+				name="featured_page_heading"
+				type="list"
+				default="h1"
+				label="TPL_PAGE_HEADING_LABEL"
+				description="TPL_PAGE_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>          
+					<option value="p">p</option>          
+			</field>
+			<field 
+				name="featured_item_heading"
+				type="list"
+				default="h4"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_CATEGORY_TYPO_LABEL" description="TPL_SPACER_CATEGORY_TYPO_DESC"></field>
+	
+			<field 
+				name="category_page_heading"
+				type="list"
+				default="h1"
+				label="TPL_PAGE_HEADING_LABEL"
+				description="TPL_PAGE_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>          
+					<option value="p">p</option>          
+			</field>
+			<field 
+				name="category_item_heading"
+				type="list"
+				default="h3"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_BLOG_TYPO_LABEL" description="TPL_SPACER_BLOG_TYPO_DESC"></field>
+	
+			<field 
+				name="blog_page_heading"
+				type="list"
+				default="h1"
+				label="TPL_PAGE_HEADING_LABEL"
+				description="TPL_PAGE_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field 
+				name="blog_item_heading"
+				type="list"
+				default="h2"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_ITEM_TYPO_LABEL" description="TPL_SPACER_ITEM_TYPO_DESC"></field>
+	
+			<field 
+				name="item_item_heading"
+				type="list"
+				default="h1"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>          
+			<field 
+				name="itemblog_item_heading"
+				type="list"
+				default="h3"
+				label="TPL_ITEM_BLOG_HEADING_LABEL"
+				description="TPL_ITEM_BLOG_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			
+			<field type="spacer" label=" " />
+		</fieldset>
+		
+		<fieldset name="features" label="TPL_FIELDSET_FEATURES">
+			<field type="spacer" label=" " />		
+			<field type="spacer" label=" " />		
+						
+			<field 
+				name="theme_style"
+				type="list"
+				default="default"
+				label="TPL_THEME_STYLE_LABEL"
+				description="TPL_THEME_STYLE_DESC">
+					<option value="default">Default</option>
+					<option value="blueivy">Blue Ivy</option>
+					<option value="coffee">Coffee</option>
+					<option value="copper">Copper</option>
+					<option value="coral">Coral</option>
+					<option value="firebrick">Fire Brick</option>          
+					<option value="iguana">Iguana</option> 
+					<option value="jetgray">Jet Gray</option> 
+					<option value="purple">Purple</option> 
+					<option value="teal">Teal</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_TOTOP_LABEL" description="TPL_SPACER_TOTOP_DESC"></field>
+			<field
+				name="totop"
+				type="radio"
+				class="btn-group" 
+				default="1"
+				label="TPL_THEME_TOTOP"
+				description="TPL_THEME_TOTOP_DESC">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field
+				name="totop_text"
+				type="text"
+				default="Back to top"
+				label="TPL_THEME_TOTOP_TEXT"
+				description="TPL_THEME_TOTOP_TEXT_DESC">          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_TODESKTOP_LABEL" description="TPL_SPACER_TODESKTOP_DESC"></field>
+			
+			<field
+				name="todesktop"
+				type="radio"
+				class="btn-group" 
+				default="1"
+				label="TPL_THEME_TODESKTOP"
+				description="TPL_THEME_TODESKTOP_DESC">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field
+				name="todesktop_text"
+				type="text"
+				default="Back to desktop version"
+				label="TPL_THEME_TODESKTOP_TEXT"
+				description="TPL_THEME_TODESKTOP_TEXT_DESC">          
+			</field>
+			<field
+				name="tomobile_text"
+				type="text"
+				default="Back to mobile version"
+				label="TPL_THEME_TOMOBILE_TEXT"
+				description="TPL_THEME_TOMOBILE_TEXT_DESC">          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+		</fieldset>
+	</fields>
+	</config>
+</extension>

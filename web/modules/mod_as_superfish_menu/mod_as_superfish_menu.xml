@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>AS Superfish Menu</name>
+	<creationDate>2014-10-24</creationDate>
+	<updateDate>2014-10-24</updateDate>
+	<version>1.0.0</version>
+	<author>AS Designing</author>
+    <authorUrl>http://www.asdesigning.com</authorUrl>
+    <license>GNU/GPL</license>	
+	<version>1.0.0</version>
+	
+	<description>
+	<![CDATA[
+
+			The AS Superfish Menu module displays a main Joomla! template menu for desktop and mobile devices.<br />
+			
+			<br />Visit our site for more extensions: <a href="http://www.astemplates.com" target="_blank">http://www.astemplates.com</a>.
+			<br /><br />
+			
+			</span>
+			<br /><br />]]>
+	</description>
+		
+	<files>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+
+		<filename module="mod_as_superfish_menu">mod_as_superfish_menu.php</filename>
+		<filename>mod_as_superfish_menu.xml</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>		
+	</files>
+
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.mod_as_superfish_menu.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_as_superfish_menu.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+		
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Basic Configuration Options ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+					
+			<fieldset name="basicoptions" label="Basic Options">
+				<field type="spacer" label="&lt;script src='../modules/mod_as_superfish_menu/js/jscolors/jscolor.js' type='text/javascript'&gt;&lt;/script&gt;" />
+				<field
+					name="menutype"
+					type="menu"
+					label="MOD_MENU_FIELD_MENUTYPE_LABEL"
+					description="MOD_MENU_FIELD_MENUTYPE_DESC" >
+				</field>
+				<field
+					name="startLevel"
+					type="list"
+					default="1"
+					label="MOD_MENU_FIELD_STARTLEVEL_LABEL"
+					description="MOD_MENU_FIELD_STARTLEVEL_DESC">
+						<option value="1">J1</option>
+						<option value="2">J2</option>
+						<option value="3">J3</option>
+						<option value="4">J4</option>
+						<option value="5">J5</option>
+						<option value="6">J6</option>
+						<option value="7">J7</option>
+						<option value="8">J8</option>
+						<option value="9">J9</option>
+						<option value="10">J10</option>
+				</field>
+				<field
+					name="endLevel"
+					type="list"
+					default="0"
+					label="MOD_MENU_FIELD_ENDLEVEL_LABEL"
+					description="MOD_MENU_FIELD_ENDLEVEL_DESC">
+						<option value="0">JALL</option>
+						<option value="1">J1</option>
+						<option value="2">J2</option>
+						<option value="3">J3</option>
+						<option value="4">J4</option>
+						<option value="5">J5</option>
+						<option value="6">J6</option>
+						<option value="7">J7</option>
+						<option value="8">J8</option>
+						<option value="9">J9</option>
+						<option value="10">J10</option>
+				</field>
+				<field
+					name="showAllChildren"
+					type="radio"
+					class="btn-group"
+					default="1"
+					label="MOD_MENU_FIELD_ALLCHILDREN_LABEL"
+					description="MOD_MENU_FIELD_ALLCHILDREN_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Menu Options ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="menuoptions"  label="Menu Options">
+				<field type="spacer" label=" " />			
+				<field 
+					name="sf-delay" 
+					type="text" 
+					default="500" 
+					label="SF_MOD_DELAY_LABEL" 
+					description="SF_MOD_DELAY_DESC">
+				</field>
+				<field 
+					name="sf-sticky" 
+					type="radio" 
+					class="btn-group" 
+					default="1" 
+					label="SF_MOD_STICKY_LABEL" 
+					description="SF_MOD_STICKY_DESC">
+						<option value="1">JENABLED</option>
+						<option value="0">JDISABLED</option>
+				</field>
+				<field type="spacer"></field>
+								
+				<field 
+					name="sf-dynamic" 
+					type="radio" 
+					class="btn-group" 
+					default="0" 
+					label="SF_MOD_DYNAMIC_LABEL" 
+					description="SF_MOD_DYNAMIC_DESC">
+						<option value="1">JENABLED</option>
+						<option value="0">JDISABLED</option>
+				</field>
+				<field 
+					name="sf-layout" 
+					type="list" 
+					default="hor" 
+					label="SF_MOD_LAYOUT_LABEL" 
+					description="SF_MOD_LAYOUT_DESC">
+						<option value="hor">SF_HORIZONTAL</option>
+						<option value="vert">SF_VERTICAL</option>
+						<option value="nav">SF_NAVBAR</option>
+				</field>
+				<field 
+					name="sf-onclick" 
+					type="radio" 
+					class="btn-group" 
+					default="0" 
+					label="SF_MOD_ONCLICK_LABEL" 
+					description="SF_MOD_ONCLICK_DESC">
+						<option value="1">JENABLED</option>
+						<option value="0">JDISABLED</option>
+				</field>
+				
+				<field type="spacer"></field>
+				<field type="spacer" label="SF_LAYOUT_LABEL"></field>
+				<field type="spacer"></field>
+						
+				<field
+					name="sf_font_family"
+					type="list"
+					default="Lato"
+					label="SF_MOD_FONT_FAMILY_LABEL"
+					description=""> 
+						<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif</option>
+						<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman</option>
+						<option value="'Courier New', Courier, monospace">Courier New, Courier</option>
+						<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+						<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica</option>
+						<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+						<option value="'Times New Roman', Times, serif">Times New Roman, Times</option>
+						<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+						<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+						<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode</option>	
+						<option value="ABeeZee">Google:ABeeZee</option>
+						<option value="Acme">Google:Acme</option>
+						<option value="Advent Pro">Google:Advent Pro</option>
+						<option value="Arimo">Google:Arimo</option>
+						<option value="Arizonia">Google:Arizonia</option>
+						<option value="Arvo">Google:Arvo</option>					
+						<option value="Average">Google:Average</option>
+						<option value="BenchNine">Google:BenchNine</option>
+						<option value="Carme">Google:Carme</option>
+						<option value="Comfortaa">Google:Comfortaa</option>
+						<option value="Convergence">Google:Convergence</option>
+						<option value="Cuprum">Google:Cuprum</option>
+						<option value="Droid Sans">Google:Droid Sans</option>
+						<option value="Droid Serif">Google:Droid Serif</option>
+						<option value="Exo">Google:Exo</option>
+						<option value="Felipa">Google:Felipa</option>
+						<option value="Fredoka One">Google:Fredoka One</option>						
+						<option value="Hammersmith One">Google:Hammersmith One</option>
+						<option value="Homenaje">Google:Homenaje</option>
+						<option value="Istok Web">Google:Istok Web</option>
+						<option value="Jockey One">Google:Jockey One</option>
+						<option value="Josefin Slab">Google:Josefin Slab</option>
+						<option value="Jura">Google:Jura</option>
+						<option value="Lato">Google:Lato</option>
+						<option value="Libre Baskerville">Google:Libre Baskerville</option>
+						<option value="Lobster">Google:Lobster</option>
+						<option value="Lobster Two">Google:Lobster Two</option>
+						<option value="Lora">Google:Lora</option>														
+						<option value="Macondo">Google:Macondo</option>
+						<option value="Marmelad">Google:Marmelad</option>
+						<option value="Michroma">Google:Michroma</option>
+						<option value="Montserrat">Google:Montserrat</option>
+						<option value="Monsieur La Doulaise">Google:Monsieur La Doulaise</option>						
+						<option value="Mr Bedfort">Google:Mr Bedfort</option>
+						<option value="Muli">Google:Muli</option>
+						<option value="Numans">Google:Numans</option>
+						<option value="Open Sans">Google:Open Sans</option>
+						<option value="Oswald">Google:Oswald</option>
+						<option value="Oxygen">Google:Oxygen</option>
+						<option value="Parisienne">Google:Parisienne</option>
+						<option value="Paytone One">Google:Paytone One</option>
+						<option value="Pontano Sans">Google:Pontano Sans</option>						
+						<option value="PT Sans">Google:PT Sans</option>	
+						<option value="PT Serif">Google:PT Serif</option>												
+						<option value="Prosto One">Google:Prosto One</option>
+						<option value="Questrial">Google:Questrial</option>
+						<option value="Raleway">Google:Raleway</option>
+						<option value="Roboto">Google:Roboto</option>
+						<option value="Roboto Condensed">Google:Roboto Condensed</option>
+						<option value="Roboto Slab">Google:Roboto Slab</option>										
+						<option value="Rouge Script">Google:Rouge Script</option>						
+						<option value="Russo One">Google:Russo One</option>
+						<option value="Sacramento">Google:Sacramento</option>
+						<option value="Salsa">Google:Salsa</option>						
+						<option value="Sail">Google:Sail</option>												
+						<option value="Sevillana">Google:Sevillana</option>						
+						<option value="Signika">Google:Signika</option>
+						<option value="Six Caps">Google:Six Caps</option>
+						<option value="Source Sans Pro">Google:Source Sans Pro</option>					
+						<option value="Tangerine">Google:Tangerine</option>												
+						<option value="Tulpen One">Google:Tulpen One</option>
+						<option value="Ubuntu">Google:Ubuntu</option>					         
+				</field>
+				<field name="sf_fontsize"
+					type="integer"
+					first="8"
+					last="36"
+					step="1"
+					default="14"
+					label="SF_MOD_FONT_SIZE_LABEL" 
+					description="">
+				</field>				
+				<field name="sf_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_FONT_COLOR_LABEL" 
+					description="">
+				</field>
+				<field name="sf_active_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_ACTIVE_FONT_COLOR_LABEL" 
+					description="">
+				</field>
+				<field name="sf_hover_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_HOVER_FONT_COLOR_LABEL" 
+					description="">
+				</field>
+				<field type="spacer"></field>
+
+				<field name="sf_sub_fontsize"
+					type="integer"
+					first="8"
+					last="36"
+					step="1"
+					default="12"
+					label="SF_MOD_SUB_FONT_SIZE_LABEL" 
+					description="">
+				</field>				
+				<field name="sf_sub_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_SUB_FONT_COLOR_LABEL" 
+					description="">
+				</field>
+				<field name="sf_sub_active_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_SUB_ACTIVE_FONT_COLOR_LABEL" 
+					description="">
+				</field>
+				<field name="sf_sub_hover_fontcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_SUB_HOVER_FONT_COLOR_LABEL" 
+					description="">
+				</field>
+				<field name="sf_sub_menu_bgcolor" 
+					class="color {required:false}" 
+					type="text" 
+					default="" 
+					label="SF_MOD_SUB_MENU_BG_COLOR_LABEL" 
+					description="">
+				</field>
+																			
+				<field type="spacer"></field>
+				<field type="spacer" label="SF_MOBILE_SETTINGS_LABEL"></field>
+				<field type="spacer"></field>
+
+				<field 
+					name="sf-mobiselect" 
+					type="radio" 
+					class="btn-group" 
+					default="0" 
+					label="SF_MOD_SELECT_LABEL" 
+					description="SF_MOD_SELECT_DESC">
+						<option value="1">JENABLED</option>
+						<option value="0">JDISABLED</option>
+				</field>
+				<field
+					name="sf-mobinavtext"
+					type="text"
+					default="Navigate to..."
+					label="SF_MOD_DEFAULT_TEXT"	>				
+				</field>
+				<field
+					name="sf-mobiclassname"
+					type="text"
+					default="select-menu"
+					label="SF_MOD_CLASSNAME" >				
+				</field>
+				<field
+					name="sf-mobisubclassname"
+					type="text"
+					default="sub-menu"
+					label="SF_MOD_SUBMENUCLASS"	>				
+				</field>
+				<field 
+					name="sf-mobisticky" 
+					type="radio" 
+					class="btn-group" 
+					default="0" 
+					label="SF_MOD_STICKY_MOBILE_LABEL" 
+					description="SF_MOD_STICKY_MOBILE_DESC">
+						<option value="1">JENABLED</option>
+						<option value="0">JDISABLED</option>
+				</field>
+			</fieldset>
+			
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			<!-- Advanced Configuration Options ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+			<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->	
+			
+			<fieldset name="advanced" label="Advanced Options">
+				<field type="spacer" label=" " />			
+				<field
+					name="tag_id"
+					type="text"
+					label="MOD_MENU_FIELD_TAG_ID_LABEL"
+					description="MOD_MENU_FIELD_TAG_ID_DESC" >
+				</field>
+				<field
+					name="class_sfx"
+					type="text"
+					label="MOD_MENU_FIELD_CLASS_LABEL"
+					description="MOD_MENU_FIELD_CLASS_DESC" >
+				</field>
+				<field
+					name="window_open"
+					type="text"
+					label="MOD_MENU_FIELD_TARGET_LABEL"
+					description="MOD_MENU_FIELD_TARGET_DESC" >
+				</field>
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" >
+				</field>
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					default="navigation"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" >
+				</field>
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+						<option value="1">JGLOBAL_USE_GLOBAL</option>
+						<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" >
+				</field>
+				<field
+					name="cachemode"
+					type="hidden"
+					default="itemid">
+						<option value="itemid"></option>
+				</field>
+			</fieldset>			
+		</fields>
+	</config>
+</extension>

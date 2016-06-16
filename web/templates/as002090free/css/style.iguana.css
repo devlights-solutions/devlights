@@ -1,0 +1,170 @@
+
+/*******************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/*******************************************************************************************/
+
+
+a,
+.page-featured .item_header .item_title .item_title_part0,
+.page-featured .item_header .item_title a:hover,
+#back-top a,
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover,
+h4,
+h5,
+.pagination ul li a.pagenav, 
+.pagination ul li a.hasTooltip,
+#logo h1 span.char_4,
+#logo h2 span.char_4,
+#logo h3 span.char_4,
+#logo h1 span.char_5,
+#logo h2 span.char_5,
+#logo h3 span.char_5,
+#logo h1 span.char_6,
+#logo h2 span.char_6,
+#logo h3 span.char_6,
+#bottom-header-row h3,
+#bottom-header-row .mod-newsflash-adv .btn-info,
+#content-row-2 .item_num0 a:hover .item_content,
+#content-row-2 .item_num3 a:hover .item_content,
+#content-row-2 .item_num2 .item_content::before,
+#content-row-4 span.blocknumber,
+#content-row-5 h1,
+#content-row-5 .item_num2 a .item_content,
+#content-row-5 .item_num2 .item_content::before,
+#content-row-8 a h2:hover,
+#content-row-8 a h3:hover,
+#content-row-8 a h4:hover,
+#content-row-8 a:hover,
+#main-content-top-row h1,
+#main-content-top-row h2,
+.experience-date .experience-date-end-month, 
+.experience-date .experience-date-end-year,
+.experience-company,
+.testimonials:before,
+.social_team li a:hover,
+.mod-custom__video .module-content .module-content-inner,
+.item_info_dl a,
+.page-category__faq h4.item_title span.item_title_part0,
+.page-category__faq h4.item_title span.item_title_part1,
+.page-blog .komento .kmt-comment:before, 
+.page-item__blog .komento .kmt-comment:before, 
+.blog-fullwidth .komento .kmt-comment:before,
+.page-blog .item_createdby, 
+.page-item__blog .item_createdby, 
+.blog-fullwidth .item_createdby,
+.blog .item .item_content .komento:before,
+.mfp-title h4 a:hover
+{
+	color: #93A965;
+}
+
+.mod-menu .nav.menu.nav-pills > li.active > a,
+span.blocknumber,
+.archive-module li a:hover, 
+.categories-module li a:hover, 
+.mod-menu .nav.menu li a:hover,
+.btn-primary:hover, 
+.btn-small:hover,
+.btn-primary:focus, 
+.btn-small:focus, 
+.btn-primary:active, 
+.btn-small:active,
+.btn-info,
+.btn-info:focus:hover, 
+.btn-info:active:hover,
+#top-header-row ul.social li a,
+ul.sf-menu > li.active > a,
+ul.sf-menu > li.sfHover > a, 
+ul.sf-menu > li.current > a, 
+ul.sf-menu > li.active > span, 
+ul.sf-menu > li.sfHover > span, 
+ul.sf-menu > li.current > span,
+ul.sf-menu > li > a:hover, 
+ul.sf-menu > li > span:hover,
+ul.sf-menu ul li a:hover, 
+ul.sf-menu ul li span:hover,
+ul.sf-menu ul li.active > a, 
+ul.sf-menu ul li.sfHover > a, 
+ul.sf-menu ul li.active > span, 
+ul.sf-menu ul li.sfHover > span,
+#bottom-header-row .mod-newsflash-adv .item_container,
+#bottom-header-row .mod-newsflash-adv .btn-info:hover,
+#content-row-1 .moduletable ul li.num0,
+#content-row-1 .moduletable ul li.num1,
+#content-row-1 .moduletable ul li.num2,
+#content-row-1 .moduletable ul li.num3,
+#content-row-1 .moduletable ul li.num4,
+#content-row-2 .item_num1 a .item_content,
+#content-row-2 .item_num0 a:hover .item_content,
+#content-row-2 .item_num2 a:hover .item_content,
+#content-row-2 .item_num3 a:hover .item_content,
+#content-row-2 .item_num4 a:hover .item_content,
+#content-row-2 .item_num5 a:hover .item_content,
+#content-row-2 .item_num6 a:hover .item_content,
+#content-row-2 .item_num7 a:hover .item_content,
+#content-row-5 .item_num0 a:hover .item_content,
+#content-row-5 .item_num1 a:hover .item_content,
+#content-row-5 .item_num2 a:hover .item_content,
+#content-row-5 .item_num3 a:hover .item_content,
+#content-row-5 .item_num4 a:hover .item_content,
+#content-row-5 .item_num5 a:hover .item_content,
+#content-row-5 .item_num6 a:hover .item_content,
+#content-row-5 .item_num7 a:hover .item_content,
+#content-row-5 .item_num0 .item_content,
+.testimonials .caroufredsel_pagination a:hover, 
+.testimonials .caroufredsel_pagination a.selected,
+.page-blog .item_published, 
+.page-item__blog .item_published, 
+.blog-fullwidth .item_published,
+.page-blog .item_createdby:before, 
+.page-item__blog .item_createdby:before, 
+.blog-fullwidth .item_createdby:before,
+.page-blog .item_createdby:after, 
+.page-item__blog .item_createdby:after, 
+.blog-fullwidth .item_createdby:after,
+.page-gallery .btn-group .btn-info.active, 
+.page-gallery .btn-group .btn-info:hover,
+#footer-row-3 .mod-custom__address,
+ul.social li a:hover,
+.toggle,
+.toggle.opened:hover,
+.pricing .row-fluid .item:hover .item_container .price, 
+.pricing .row-fluid .item.featured .item_container .price
+{
+	background-color: #93A965;
+}
+
+#top-header-row,
+#breadcrumbs-row,
+.testimonials .caroufredsel_pagination a:hover, 
+.testimonials .caroufredsel_pagination a.selected,
+.social_team li a:hover,
+ul.social li a:hover,
+.radial-progress .circle .fill
+{
+	border-color: #93A965;
+}
+
+#content-row-4
+{
+	background: rgba(147,169,101, 0.85);	
+}
+
+@media (max-width: 768px) 
+{
+	#content-row-4
+	{
+		background: rgba(147,169,101, 1);	
+	}
+}
+
